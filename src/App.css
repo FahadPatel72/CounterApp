@@ -1,0 +1,62 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(103, 9, 121, 1) 33%,
+    rgba(0, 212, 255, 1) 99%
+  );
+  height: 100vh;
+  width: 100vw;
+  gap: 15px;
+}
+.title {
+  font-size: medium;
+  color: antiquewhite;
+}
+
+.innerContainer {
+  display: flex;
+  background-color: white;
+  height: 40px;
+  width: 135px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.setVal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.decHandler {
+  font-weight: 500;
+  margin-left: 15px;
+  font-size: 20px;
+  border-right: 1px solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-right: 15px;
+}
+
+.incHandler {
+  font-size: 20px;
+  margin-right: 15px;
+  border-left: 1px solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 15px;
+}
+
+.btn-class {
+  background-color: rgba(0, 145, 255, 0.906);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
